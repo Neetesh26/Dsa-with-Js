@@ -30,6 +30,7 @@ function minimum(arr) {
 // console.log(minimum(arr));
 
 
+// var arr = [10, 30,40, 60,60,60 ,60 ,30]
 
 // how to find second maximum element of an array -------->
 function maxf(first, second) {
@@ -60,3 +61,4 @@ for (let idx = 2; idx < arr.length; idx++) {
 }
 console.log("First largest number of an array is :", maxelem);
 console.log("Second largest number of an array is :", Smax);
+
