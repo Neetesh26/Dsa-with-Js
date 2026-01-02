@@ -12,6 +12,7 @@ function trapped(height) {
     for (let i = n - 2; i >= 0; i--) {
         rightMax[i] = Math.max(rightMax[i + 1], height[i]);
     }
+    
     for (let i = 0; i < n; i++) {
         waterTrapped += Math.min(leftMax[i], rightMax[i]) - height[i];
     }
